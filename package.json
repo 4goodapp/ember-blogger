@@ -1,0 +1,28 @@
+{
+  "author": "Abhaya Thapa",
+  "name": "brunch-with-ember",
+  "description": "An updated Brunch skeleton for developing Ember applications",
+  "version": "1.0.0",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": "0.8 || 0.9"
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "emberupdate": "curl http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars-latest.js > vendor/scripts/handlebars.js && curl http://builds.emberjs.com/release/ember.js > vendor/scripts/ember.js && curl http://builds.emberjs.com.s3.amazonaws.com/ember-data-latest.js > vendor/scripts/ember-data.js"
+  },
+  "dependencies": {
+    "javascript-brunch": "~1.5.1",
+    "coffee-script-brunch": "~1.5.1",
+    "css-brunch": "~1.5.1",
+    "sass-brunch": "1.5.0",
+    "uglify-js-brunch": "~1.5.1",
+    "clean-css-brunch": "~1.5.1",
+    "auto-reload-brunch": "~1.7.0",
+    "ember-handlebars-brunch": "~1.0.0"
+  }
+}
