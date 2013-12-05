@@ -13,6 +13,7 @@ exports.config =
           'vendor/scripts/jquery.js'
           'vendor/scripts/handlebars.js'
           'vendor/scripts/ember.js'
+          'vendor/scripts/ember-states.js'
           'vendor/scripts/ember-data.js'
         ]
 
