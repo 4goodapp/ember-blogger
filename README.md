@@ -1,8 +1,6 @@
-# Ember Brunch
+# Ember Blogger
 
 A [Brunch](http://brunch.io) skeleton for creating ambitious web applications using [Ember.js](http://emberjs.com). Based on the official Ember [Starter Kit](https://github.com/emberjs/starter-kit/archive/master.zip).Minimalistic approach with Coffeescript, sass, handlebars and ember-data support. Auto-reload feature added so it is automatically reflected on server.
-
-As previous [ember-brunch](https://github.com/icholy/ember-brunch) is no longer maintained by the author. I have come up with this. 
 
 
 ## Demo
@@ -11,9 +9,9 @@ As previous [ember-brunch](https://github.com/icholy/ember-brunch) is no longer 
 
 ## Versions
 - [Ember v1.2.0](http://emberjs.com)
-- [Ember Data 1.0.0-beta.4+canary.e7996c4d](https://github.com/emberjs/data)
+- [Ember Data](https://github.com/emberjs/data)
 - [Handlebars 1.1.2](http://handlebarsjs.com)
-- [jQuery v2.0.3](http://jquery.com)
+- [jQuery v1.10.2](http://jquery.com)
 - [HTML5 Boilerplate v4.2.0](http://html5boilerplate.com)
 
 ## Features
@@ -27,9 +25,9 @@ As previous [ember-brunch](https://github.com/icholy/ember-brunch) is no longer 
 ## Getting started
 
 ```
-git clone git@github.com:abhayathapa/ember-brunch.git
-brunch new ./ember-brunch/ myapp
-cd myapp
+git clone git@github.com:abhayathapa/ember-blogger.git
+cd ember-blogger
+npm install
 brunch w -s
 ```
 Open [http://localhost:3333](http://localhost:3333) on your browser.
